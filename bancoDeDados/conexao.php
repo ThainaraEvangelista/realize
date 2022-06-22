@@ -1,9 +1,9 @@
 <?php
-    $servername = "localhost";
+    $servername = "https://thainaraevangelista.github.io";
     $username = "root";
     $password = "";
     $dbname = "realizebd";
-    $site = "localhost/realize/";
+    $site = "https://thainaraevangelista.github.io/realize/";
     // criando a conexao
     $conn = mysqli_connect($servername, $username, $password, $dbname);
     // Check connection
