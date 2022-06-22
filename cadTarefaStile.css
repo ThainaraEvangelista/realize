@@ -1,0 +1,104 @@
+/* barra de navegaçao */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    overflow: hidden;
+    background-color: rgb(255, 0, 85);
+  }
+  
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 3px;
+    margin: 2px;
+  }
+  
+  nav a:hover {
+    background-color: rgb(232, 3, 80);
+    color: white;
+  }
+  
+  nav a.active {
+    background-color: rgb(237, 7, 84);
+    color: white;
+  }
+
+  .btnSair{
+    text-align: right;
+  }
+
+  /* formulario de tarefas */
+
+  h2{
+    
+    color: white;
+    font-size:30px;
+    margin: 5px;
+    text-align: center;
+    margin-top: 2px;
+    
+}
+
+
+.form-tarefa{
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    margin:6px;
+    text-align: left;
+}
+
+.corpo-form-tarefa{
+    background-color: rgb(255, 0, 85);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 10px;   
+}
+
+input{
+    display: block;
+    margin: 15px;
+    outline: none;
+    border: transparent;
+    border-radius: 2px;
+    padding: 10px;
+    width: 300px;      
+}
+
+input:hover{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.377);
+    
+}
+
+
+.btn-form-tarefa{
+    background-color: rgb(231, 231, 231);
+    margin: 10px;
+    padding: 10px;
+    width: 325px; 
+    border: none;
+    border-radius: 1px;
+}
+
+.btn-form-tarefa:hover{
+     
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.btn-form-tarefa:active {
+    background-color: rgb(219, 219, 219);
+    
+  }
+

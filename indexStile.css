@@ -1,0 +1,101 @@
+/* barra de navegaçao */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    overflow: hidden;
+    background-color: rgb(255, 0, 85);
+  }
+  
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 3px;
+    margin: 2px;
+  }
+  
+  nav a:hover {
+    background-color: rgb(232, 3, 80);
+    color: white;
+  }
+  
+  nav a.active {
+    background-color: rgb(237, 7, 84);
+    color: white;
+  }
+
+  .btnSair{
+    text-align: right;
+  }
+
+  /* estilo da tabela */
+
+ .corpoTarefas{
+    margin: 20px;
+    text-align: center;
+
+ }
+  table{
+    width: 100%;
+  }
+
+  .titulos{
+    background-color: white;
+    color: rgb(255, 0, 85);
+    width: 30px;
+    font-size: large;   
+  
+  }
+  .titulos:hover{
+    background-color: white;
+  }
+
+
+
+  tr{
+    margin-bottom: 5px;
+    background-color: rgb(255, 0, 85);
+    color: white;
+
+
+  }
+
+  tr td{
+        border-radius: 5px;
+        min-width: 120px;
+        height: 18px;
+        border: 1px solid rgb(255, 0, 85);
+  }
+  tr:hover{
+    background-color: rgb(253, 84, 140);
+  }
+
+.titTarefa{
+  width: 100%;
+  color: rgb(255, 0, 85);
+  font-size: medium;
+  background-color: rgba(255, 0, 85, 0.049);
+  border-radius: 3px;
+  margin: 5px;
+}
+
+td img{
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 3px;
+
+}
+ td img:hover{
+  background-color: rgb(237, 7, 84);
+ }
+
+
+

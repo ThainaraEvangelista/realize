@@ -1,0 +1,88 @@
+/* barra de navegaçao */
+
+  
+.navB {
+    overflow: hidden;
+    background-color: rgb(255, 0, 85);
+}
+  
+.navB a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 3px;
+    margin: 2px;
+}
+  
+.navB a:hover {
+    background-color: rgb(232, 3, 80);
+    color: white;
+}
+  
+.navB a.active {
+    background-color: rgb(237, 7, 84);
+    color: white;
+}
+
+.btnSair{
+    text-align: right;
+}
+
+/* pdf */
+
+.achar-pdf{
+    margin: 30px;
+    text-align: center;
+
+}
+
+.inputPdf{
+    width: 60px;
+    background-color: #ff0088;
+    color: #ffffff;
+}
+.btn-pdf{
+    width: 70px;
+    background-color: #ff0088;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.btn-pdf:hover{
+    background-color:  rgb(237, 7, 84);
+}
+
+.btn-pdf:active{
+    background-color:  rgb(238, 60, 119);
+}
+
+.form-pdf{
+
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+    background-color:  rgba(255, 0, 85, 0.067);
+    margin: 3px;
+}
+
+.achar-pdf a{
+    background-color: #ff0088;
+    color: #ffffff;
+    margin: 3px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.achar-pdf a:hover{
+    background-color:  rgb(237, 7, 84);
+}
+
+.achar-pdf a:active{
+    background-color:  rgb(238, 60, 119);
+}

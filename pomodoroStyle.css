@@ -1,0 +1,137 @@
+/* barra de navegaçao */
+
+  
+.navB {
+    overflow: hidden;
+    background-color: rgb(255, 0, 85);
+}
+  
+.navB a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 3px;
+    margin: 2px;
+}
+  
+.navB a:hover {
+    background-color: rgb(232, 3, 80);
+    color: white;
+}
+  
+.navB a.active {
+    background-color: rgb(237, 7, 84);
+    color: white;
+}
+
+.btnSair{
+    text-align: right;
+}
+
+
+/* pomodoro */
+.container{
+    text-align: center;
+}
+
+.cadtask{
+    border: 1px solid;
+    margin: 3px;
+}
+
+.navbar{
+    background-color: #ff0088;
+    
+}
+.nav-link{
+    color: #ffffff;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance:none;
+    color:#ff0088;
+}
+input{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    border-color: #ff0088;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+label{
+    color:  rgb(165, 43, 226) ;
+}
+
+#btnPomo{
+    background-color:  rgb(255, 0, 85);
+    color: white;
+    border: none;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+#btnPomo:hover {
+    background-color: rgb(129, 24, 59);
+
+  }
+
+.time{
+    color:rgb(165, 43, 226);
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+h2{
+    font-size: 15px;
+    color: #ff0088;
+    font-size: medium;
+}
+
+#erro_campoVazio{
+    color: red;
+    font-size: small;
+}
+
+#title_sessao{
+    color: rgb(165, 43, 226);
+}
+.time{
+    border: 3px solid rgb(255, 0, 85);
+}
+
+.time h2{
+    font-size: 50px;
+}
+
+form{
+    margin-bottom: 5px;
+}
+ 
+#config{
+    margin-top: 5px;
+    background-color: #ff00880f;
+    border-radius: 3px;
+    padding: 5px;
+}
